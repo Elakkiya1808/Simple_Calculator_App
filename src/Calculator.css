@@ -25,12 +25,10 @@
   margin-top: 4px;
 }
 
-/* Live result (while typing) */
 .live-result {
   color: gray;
 }
 
-/* Final result (after =) */
 .final-result {
   color: black;
 }
@@ -52,7 +50,7 @@
   transition: background-color 0.2s ease;
 }
 button.equals-button {
-  background-color: #4caf50; /* Green */
+  background-color: #4caf50; 
   grid-column: span 4;
 }
 
@@ -61,7 +59,7 @@ button.equals-button:hover {
 }
 
 button.backspace-button {
-  background-color: #ffa726; /* Optional: orange for backspace */
+  background-color: #ffa726; 
 }
 
 button.backspace-button:hover {
